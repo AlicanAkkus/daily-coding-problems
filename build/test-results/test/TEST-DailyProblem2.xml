@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DailyProblem2" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-12-15T19:24:53" hostname="Alicans-MacBook-Pro-2.local" time="0.16">
+  <properties/>
+  <testcase name="should convert [quick, brown, the, fox] to [the, quick, brown, fox]" classname="DailyProblem2" time="0.093"/>
+  <testcase name="should convert [bed, bath, bedbath, and, beyond] to [bed, bedbath, bath, and, beyond]" classname="DailyProblem2" time="0.001"/>
+  <testcase name="should convert [quick, brown, the, fox] to [the, quick, brown, fox]" classname="DailyProblem2" time="0.061"/>
+  <testcase name="should convert [bed, bath, bedbath, and, beyond] to [bed, bedbath, bath, and, beyond]" classname="DailyProblem2" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

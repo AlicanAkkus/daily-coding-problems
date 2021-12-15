@@ -18,12 +18,12 @@ class DailyProblem1 extends Specification {
 
         where:
         input           | output                | runAs
-        [1, 2, 3, 4, 5] | [120, 60, 40, 30, 24] | { oldJava(input) }
+        [1, 2, 3, 4, 5] | [120, 60, 40, 30, 24] | { javaStyle(input) }
         [3, 2, 1]       | [2, 3, 6]             | { groovyStyle(input) }
         [5, 3, 2]       | [6, 10, 15]           | { groovyStyle(input) }
     }
 
-    private List<Integer> oldJava(List<Integer> input) {
+    private List<Integer> javaStyle(List<Integer> input) {
         ArrayList<Integer> output = new ArrayList<>();
         for (int i = 0; i < input.size(); i++) {
             int sum = 1;
